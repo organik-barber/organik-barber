@@ -1,9 +1,15 @@
 body, p, h1, h2, h3, h4, h5, h6 {
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 24px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 .main {
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 .name {
@@ -30,5 +36,17 @@ a, a:hover, a:visited {
 }
 
 .phone {
-  margin: 10px;
+  margin: 15px;
+}
+
+.icons {
+  margin-top: 5px;
+}
+
+.icons a {
+  margin-right: 15px;
+}
+
+.icons a:last-child {
+  margin-right: 0;
 }
